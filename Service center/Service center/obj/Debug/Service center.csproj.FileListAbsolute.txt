@@ -1,0 +1,34 @@
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\bin\Debug\Database1.mdf
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\bin\Debug\Database1_log.ldf
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\bin\Debug\Service center.exe.config
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\bin\Debug\Service center.exe
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\bin\Debug\Service center.pdb
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service center.csproj.AssemblyReference.cache
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.AdminMenu.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.Authorization.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.EmployeeMenu.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.PasswordChange.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.PersonalInformation.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.Properties.Resources.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.Registration.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.UserMenu.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service center.csproj.GenerateResource.cache
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service center.csproj.CoreCompileInputs.cache
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service center.exe
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service center.pdb
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.AddingService.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.DeleteEmployee.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.SendOrder.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.AcceptOrder.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.InfromationAboutOrder.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.DeleteService.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.InformationAboutService.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.AddingSparePart.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.DeleteSpareParts.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.InformationAboutSparePart.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.OrderProcessing.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.CancelOrder.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.CompleteOrder.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.Client_sCard.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.Employee_sCard.resources
+C:\Users\maksi\OneDrive\Desktop\Service center\Service center\obj\Debug\Service_center.RepairHelp.resources
