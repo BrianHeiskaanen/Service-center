@@ -62,11 +62,11 @@ namespace Service_center
 					cmd.ExecuteNonQuery();
 				}
 
-				MessageBox.Show("Успешная обработка заказа!", "Вы начали выполнять заказ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+				MessageBox.Show("Успешное завершение заказа!", "Вы закончили заказ", MessageBoxButtons.OK, MessageBoxIcon.Information);
 			}
 			catch
 			{
-				MessageBox.Show("Ошибка обработки заказа!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				MessageBox.Show("Ошибка завершения заказа!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 			finally
 			{
