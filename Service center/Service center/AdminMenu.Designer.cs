@@ -81,16 +81,12 @@ namespace Service_center
             this.label3 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.applicationsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.database1DataSet3 = new Service_center.Database1DataSet3();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.button7 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.servicesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.database1DataSet4 = new Service_center.Database1DataSet4();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.button9 = new System.Windows.Forms.Button();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -103,6 +99,10 @@ namespace Service_center
             this.NumberOfUses = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sparePartsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.database1DataSet5 = new Service_center.Database1DataSet5();
+            this.applicationsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.database1DataSet3 = new Service_center.Database1DataSet3();
+            this.servicesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.database1DataSet4 = new Service_center.Database1DataSet4();
             this.usersTableAdapter = new Service_center.Database1DataSet1TableAdapters.UsersTableAdapter();
             this.employeeTableAdapter = new Service_center.Database1DataSet2TableAdapters.EmployeeTableAdapter();
             this.applicationsTableAdapter = new Service_center.Database1DataSet3TableAdapters.ApplicationsTableAdapter();
@@ -120,16 +120,16 @@ namespace Service_center
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet2)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.applicationsBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet3)).BeginInit();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.servicesBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet4)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sparePartsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.applicationsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.servicesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet4)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -302,6 +302,7 @@ namespace Service_center
             this.button2.TabIndex = 74;
             this.button2.Text = "Посмотреть информацию";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // textBox8
             // 
@@ -427,6 +428,7 @@ namespace Service_center
             this.button3.TabIndex = 79;
             this.button3.Text = "Посмотреть информацию";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBox1
             // 
@@ -552,6 +554,7 @@ namespace Service_center
             this.button5.TabIndex = 79;
             this.button5.Text = "Посмотреть информацию";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // textBox2
             // 
@@ -594,16 +597,6 @@ namespace Service_center
             this.dataGridView3.Size = new System.Drawing.Size(645, 395);
             this.dataGridView3.TabIndex = 75;
             // 
-            // applicationsBindingSource
-            // 
-            this.applicationsBindingSource.DataMember = "Applications";
-            this.applicationsBindingSource.DataSource = this.database1DataSet3;
-            // 
-            // database1DataSet3
-            // 
-            this.database1DataSet3.DataSetName = "Database1DataSet3";
-            this.database1DataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.LightBlue;
@@ -630,6 +623,7 @@ namespace Service_center
             this.button7.TabIndex = 79;
             this.button7.Text = "Посмотреть информацию";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // textBox3
             // 
@@ -672,16 +666,6 @@ namespace Service_center
             this.dataGridView4.Size = new System.Drawing.Size(645, 395);
             this.dataGridView4.TabIndex = 75;
             // 
-            // servicesBindingSource
-            // 
-            this.servicesBindingSource.DataMember = "Services";
-            this.servicesBindingSource.DataSource = this.database1DataSet4;
-            // 
-            // database1DataSet4
-            // 
-            this.database1DataSet4.DataSetName = "Database1DataSet4";
-            this.database1DataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.LightBlue;
@@ -708,6 +692,7 @@ namespace Service_center
             this.button9.TabIndex = 79;
             this.button9.Text = "Посмотреть информацию";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // textBox4
             // 
@@ -792,6 +777,26 @@ namespace Service_center
             this.database1DataSet5.DataSetName = "Database1DataSet5";
             this.database1DataSet5.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // applicationsBindingSource
+            // 
+            this.applicationsBindingSource.DataMember = "Applications";
+            this.applicationsBindingSource.DataSource = this.database1DataSet3;
+            // 
+            // database1DataSet3
+            // 
+            this.database1DataSet3.DataSetName = "Database1DataSet3";
+            this.database1DataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // servicesBindingSource
+            // 
+            this.servicesBindingSource.DataMember = "Services";
+            this.servicesBindingSource.DataSource = this.database1DataSet4;
+            // 
+            // database1DataSet4
+            // 
+            this.database1DataSet4.DataSetName = "Database1DataSet4";
+            this.database1DataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // usersTableAdapter
             // 
             this.usersTableAdapter.ClearBeforeFill = true;
@@ -842,18 +847,18 @@ namespace Service_center
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.applicationsBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet3)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.servicesBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet4)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sparePartsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.applicationsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.servicesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

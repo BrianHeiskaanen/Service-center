@@ -162,6 +162,36 @@ namespace Service_center
             }
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form personalInformation = new PersonalInformation(textBox8.Text, true);
+            personalInformation.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form personalInformation = new PersonalInformation(textBox1.Text, false);
+            personalInformation.ShowDialog();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form infromationAboutOrder = new InfromationAboutOrder(textBox2.Text);
+            infromationAboutOrder.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Form informationAboutService = new InformationAboutService(textBox3.Text);
+            informationAboutService.ShowDialog();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Form informationAboutSparePart = new InformationAboutSparePart(textBox4.Text);
+            informationAboutSparePart.ShowDialog();
+        }
+
         private void карточкаМастераToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form employee_sCard = new Employee_sCard();
